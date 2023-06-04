@@ -1,0 +1,69 @@
+.sampleHero1_container{
+    width: 100%;
+    height: 55rem;
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(5, 36, 42, 80%);
+}
+.sampleHero1_container>h1{
+    margin-top: 2rem;
+    height: 8%;
+    color: white;
+    /* border: 2px solid white; */
+}
+.sampleHero1_container>.sampleHero1{
+    width: 100%;
+    /* height: 90%; */
+    /* padding: 1rem; */
+    margin-top: 3rem;
+    /* border: 2px solid white; */
+}
+.hero1,.hero2,.hero3,.hero4,.hero5,.hero6,.hero7{
+    /* width: 60%; */
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12rem;
+    background-color: white;
+    /* border: 2px solid yellow; */
+}
+.hero1>img,.hero2>img,.hero3>img,.hero4>img,.hero5>img,.hero6>img,.hero7>img{
+    width: 90%;
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    /* border: 2px solid yellow; */
+}
+.hero1>label,.hero2>label,.hero3>label,.hero4>label,.hero5>label,.hero6>label,.hero7>label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* color: yellow; */
+    text-align: center;
+}
+
+.sampleHero1_container>.marginBottom1 {
+    width: 18%;
+    height: 0.6%;
+    /* opacity: 0.4; */
+    margin-top: 1rem;
+    border-radius: 2rem;
+    box-shadow: 2px solid white;
+    background-color: green;
+    border: 2px solid green;
+}
+
+.sampleHero1_container>.marginBottom2 {
+    width: 15%;
+    height: 0.6%;
+    margin: 2rem;
+    border-radius: 2rem;
+    background-color: green;
+    border: 2px solid green;
+
+}

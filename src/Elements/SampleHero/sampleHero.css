@@ -1,0 +1,223 @@
+.sampleHero {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(5, 36, 42, 80%);
+    border: 2px solid white;
+}
+
+
+.sampleHero>.heroMain {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+
+.sampleHero>.heroMain>h1 {
+    color: white;
+}
+.sampleHero>.arrowLeft {
+    width: 5%;
+    height: 5em;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    /* border: 2px solid red; */
+    /* background-color: white; */
+    background-image: url(../Image/arrowLeft.png);
+}
+
+.sampleHero>.arrowRight {
+    width: 5%;
+    height: 5rem;
+    background-size: 100%;
+    /* border: 2px solid green; */
+    background-image: url(../Image/arrowRight.png);
+}
+
+
+.sampleHero>.heroMain>.marginBelow1 {
+    width: 26%;
+    height: 0.6%;
+    /* opacity: 0.4; */
+    margin-top: 1rem;
+    border-radius: 2rem;
+    box-shadow: 2px solid white;
+    background-color: green;
+}
+
+.sampleHero>.heroMain>.marginBelow2 {
+    width: 20%;
+    height: 0.6%;
+    margin: 2rem;
+    border-radius: 2rem;
+    background-color: green;
+}
+
+.sampleHero>.heroMain>.heroCard {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+}
+
+.sampleHero>.heroMain>.heroCard>.card1,
+.card5 {
+    width: 8%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2rem;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 2rem 2rem 10px rgb(45, 52, 45);
+
+}
+
+.sampleHero>.heroMain>.heroCard>.card2,
+.card4 {
+    width: 15%;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: 2rem 2rem 10px rgb(45, 52, 45);
+    /* border: 2px solid green; */
+}
+
+.sampleHero>.heroMain>.heroCard>.card3 {
+    width: 21%;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2rem;
+    /* border: 2px solid red; */
+    background-color: white;
+    /* background-color: reverse(1); */
+
+}
+
+.sampleHero>.heroMain>.heroCard>.card3>.photo,
+.card2>.photo,
+.card1>.photo,
+.card4>.photo,
+.card5>.photo {
+    width: 90%;
+    height: 60%;
+    border-radius: 2rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+    background-position: 50%;
+    border-radius: 2px solid grey;
+    /* background-image: url(../Image/card3_Img.jpg); */
+}
+
+.sampleHero>.heroMain>.heroCard>.card1>.photo {
+    background-image: url(../Image/card1_Img.jpg);
+}
+
+.sampleHero>.heroMain>.heroCard>.card2>.photo {
+    background-image: url(../Image/card2_Img.jpg);
+}
+
+.sampleHero>.heroMain>.heroCard>.card3>.photo {
+    background-image: url(../Image/card3_Img.jpg);
+}
+
+.sampleHero>.heroMain>.heroCard>.card4>.photo {
+    background-image: url(../Image/card4_Img.jpg);
+}
+
+.sampleHero>.heroMain>.heroCard>.card5>.photo {
+    background-image: url(../Image/card5_Img.jpg);
+}
+
+.sampleHero>.heroMain>.heroCard>.card3>.name {
+    width: 90%;
+    height: 6%;
+    color: black;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 2px solid grey;
+    /* border: 2px solid red; */
+}
+
+.sampleHero>.heroMain>.heroCard>.card2>.name,
+.card4>.name {
+    /* color: green; */
+    width: 90%;
+    height: 6%;
+    color: black;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 2px solid grey;
+}
+
+.sampleHero>.heroMain>.heroCard>.card1>.name,
+.card5>.name {
+    /* color: green; */
+    width: 90%;
+    height: 6%;
+    color: black;
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 2px solid grey;
+}
+
+.sampleHero>.heroMain>.heroCard>.card3>.text {
+    width: 90%;
+    height: 28%;
+    color: black;
+    font-size: 1rem;
+    text-align: justify;
+    border-radius: 2px solid grey;
+    /* border: 2px solid red; */
+}
+
+.sampleHero>.heroMain>.heroCard>.card2>.text,
+.card4>.text {
+    width: 90%;
+    height: 28%;
+    color: black;
+    font-size: 0.9rem;
+    text-align: justify;
+    border-radius: 2px solid grey;
+    /* border: 2px solid red; */
+}
+
+.sampleHero>.heroMain>.heroCard>.card1>.text,
+.card5>.text {
+    width: 90%;
+    height: 28%;
+    color: black;
+    font-size: 0.7rem;
+    text-align: justify;
+    border-radius: 2px solid grey;
+    /* border: 2px solid red; */
+}
+.sampleHero>.heroMain>.heroCard>.card1{
+    border: 2px solid red;
+}

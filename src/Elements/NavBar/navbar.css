@@ -1,0 +1,46 @@
+.navBar {
+    width: 100%;
+    height: 10vh;
+    margin: 10px 0;
+    /* border: 2px solid red; */
+}
+
+.navBar>div {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+    border-radius: 50px;
+    align-items: center;
+    background-color: #05242a;
+    justify-content: space-between;
+    /* border: 2px solid teal; */
+}
+
+.navBar>div>.logo {
+    width: 13%;
+    /* border: 2px solid red; */
+}
+
+.navBar>div>.logo>img {
+    width: 100%;
+}
+
+.navBar>div>.navLink {
+    width: 65%;
+    /* border: 2px solid red; */
+}
+
+.navBar>div>.navLink>ul {
+    color: white;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar>div>.navLink>ul>li{
+    font-size: 1.2rem;
+    margin: 0px 27px;
+}
